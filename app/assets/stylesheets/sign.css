@@ -1,0 +1,61 @@
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.field{
+    display:grid;
+    grid-column: auto;
+}
+.label{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+}
+.input{
+    height: 40px;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.signUpBtn{
+    width: 130px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: rgb(12, 251, 52);
+    font-size: 20px;
+    border: 5px solid #22bb33;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.linkToTarget{
+    display: block;
+    margin-left: 5px;
+    color: blue;
+}
+.forgotPassword{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.lengthPassword{
+    position: relative;
+    margin-left: 120px;
+    margin-top: -23px;
+}
+#error_explanation{
+    margin-top: -25px;
+}
+.error_1{
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.linkInBack{
+    margin-left: 10px;
+}

@@ -1,0 +1,32 @@
+.newProject{
+    padding: 10px 20px 10px 20px;
+    background-color: #dbf4ff;
+    text-decoration: none;
+    border: 2px solid #292736;
+    border-radius: 15px;
+}
+.newProject:hover{
+    color: green;
+}
+#projects{
+    margin: 0px 5px 20px 5px;
+    background-color: #fff;
+    padding: 0px 10px;
+    border: 2px solid #292736;
+}
+.showProject{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    background-color: #dbf4ff;
+    text-decoration: none;
+    border: 2px solid #292736;
+    border-radius: 15px;
+    margin: 0;
+}
+#project_6{
+    font-size: 18px;
+}
+#project_6 p{
+    margin: 0;
+    margin-top: 10px;
+}

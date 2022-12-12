@@ -1,0 +1,13 @@
+<div class="container">
+  <h1 class="sign">Editing project</h1>
+
+<%= render "form", project: @project %>
+
+<br>
+
+<div class="editProject">
+  <%= link_to "Show this project", @project , class:"linkInProjects"%> |
+  <%= link_to "Back to projects", projects_path , class:"linkInProjects" %>
+</div>
+
+</div>

@@ -1,0 +1,20 @@
+<div class="container">
+  <p><%= notice %></p>
+
+  <h1 class="sign">Projects</h1>
+
+  <div id="projects">
+    <% @projects.each do |project| %>
+      <% if project.user_id == current_user.id %>
+
+      <%= render project %>
+      <p>
+        <%= link_to "Show this project", project , class: "showProject" %>
+      </p>
+      <% end %>
+    <% end %>
+  </div>
+
+  <%= link_to "+ New project", new_project_path , class: "newProject" %>
+
+</div>
